@@ -1,0 +1,106 @@
+/* Google Font */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f7f7f7;
+    margin: 0;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+      padding: 6px 10px;
+}
+
+nav a:hover {
+    background: white;
+    color: #ac0808;
+    border-radius: 4px;
+}
+
+/* Sections */
+section {
+    padding: 30px;
+    margin: 20px;
+    background: white;
+    border-radius: 8px;
+}
+
+/* Profile Image */
+.profile-img {
+    width: 140px;
+    border-radius: 50%;
+    display: block;
+    margin-bottom: 20px;
+}
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+
+tr:nth-child(even) {
+    background: #eee;
+}
+
+/* Form */
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #aaa;
+    border-radius: 6px;
+}
+button {
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #d31b1b;
+}
+
+/* Back to Top */
+.back-to-top {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background: #333;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    text-decoration: none;
+}
+.back-to-top:hover {
+    background: #555;
+}
+
+/* Divider */
+hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    margin-top: 20px;
+}
+
+
+
